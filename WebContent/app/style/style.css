@@ -6,7 +6,7 @@ header {
 	border-bottom: medium solid gray;
 }
 
-img {
+.listings img {
 	width: 75px;
 	height: 75px;
 }
@@ -42,4 +42,9 @@ img {
 	color: #069;
 	text-decoration: underline;
 	cursor: pointer;
+}
+
+.user img {
+	width: 200px;
+	height: 200px;
 }

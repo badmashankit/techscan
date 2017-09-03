@@ -1,8 +1,9 @@
 <div ng-controller="userController">
 	<div class="content">
-		<div class="row">
+		<div class="row user">
 			<div class="col-md-4">
-				<img ng-src="{{data.avatar_url}}" />
+				<div class="row"><img ng-src="{{data.avatar_url}}" /></div>
+				<div class="row"><h3>{{data.login}}</h3></div>
 			</div>
 			<div class="col-md-8">
 				
