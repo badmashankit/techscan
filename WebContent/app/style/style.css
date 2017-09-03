@@ -1,0 +1,45 @@
+header h1 {
+	color: green;
+}
+
+header {
+	border-bottom: medium solid gray;
+}
+
+img {
+	width: 75px;
+	height: 75px;
+}
+
+.listings {
+	font-size: 50px;
+	border: medium solid gray;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.row {
+	margin-left: 10px !important;
+}
+
+.repos {
+	border: medium solid gray;
+	border-radius: 10px;
+	padding: 10px;
+	width: 90%;
+}
+
+.description {
+	font-style: italic;
+}
+
+.showLink {
+	background: none !important;
+	border: none;
+	padding: 0 !important;
+	color: #069;
+	text-decoration: underline;
+	cursor: pointer;
+}

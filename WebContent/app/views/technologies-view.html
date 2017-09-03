@@ -1,0 +1,11 @@
+<div ng-controller="technologyController">
+	<div class="content">
+		<div ng-repeat="technology in technologies" class="row">
+			<div class="listings col-md-8" ng-click="go(technology.name)">
+				<img ng-src="{{technology.url}}" />
+				{{technology.name}}
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+</div>
